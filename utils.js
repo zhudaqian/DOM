@@ -15,6 +15,9 @@ var utils = (function () {
     }
 
     //->formatJSON:把JSON格式字符串转换为JSON格式对象
+
+
+    // kjlhb.l 
     function formatJSON(jsonStr) {
         return "JSON" in window ? JSON.parse(jsonStr) : eval("(" + jsonStr + ")");
     }
