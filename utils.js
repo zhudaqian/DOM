@@ -1,4 +1,4 @@
-
+﻿
 var utils = (function () {
     var flag = "getComputedStyle" in window;
 
@@ -325,3 +325,8 @@ var utils = (function () {
         css: css
     }
 })();
+
+
+
+
+// 注释
